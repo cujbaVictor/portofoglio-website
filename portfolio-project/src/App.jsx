@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+
+import { Sidenav } from "./components/Sidenav";
+import { Main } from "./components/Main";
 
 function App() {
-  
-
   return (
-    
-      <div>
-       
-      </div>
-     
-  )
+    <div>
+      <Sidenav />
+      <Main />
+    </div>
+  );
 }
 
-export default App
+export default App;
