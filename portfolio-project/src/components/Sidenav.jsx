@@ -12,7 +12,6 @@ export const Sidenav = () => {
   const [nav, setNave] = useState(false);
   const handleNav = () => {
     setNave(!nav);
-    console.log("statechange");
   };
 
   return (
