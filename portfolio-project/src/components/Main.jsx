@@ -35,10 +35,25 @@ export const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+            <a
+              href="https://www.facebook.com/profile.php?id=100009954939516"
+              target="_blank"
+            >
+              <FaFacebookF className="cursor-pointer" size={20} />
+            </a>
+
+            <a href="https://www.instagram.com/victor_7996/" target="_blank">
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/cujba-victor-076582254/"
+              target="_blank"
+            >
+              <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/cujbaVictor" target="_blank">
+              <FaGithub className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>

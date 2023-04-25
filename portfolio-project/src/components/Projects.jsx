@@ -16,8 +16,16 @@ export const Projects = () => {
         fugit quam, adipisci ratione!
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItem img={cloneImg} title="IT School clone APP" />
-        <ProjectItem img={mainImg} title="News App" />
+        <ProjectItem
+          img={cloneImg}
+          title="IT School clone APP"
+          url="https://github.com/cujbaVictor/CV-it-school-clone"
+        />
+        <ProjectItem
+          img={mainImg}
+          title="News App"
+          url="https://github.com/cujbaVictor/itschool-news"
+        />
       </div>
     </div>
   );
