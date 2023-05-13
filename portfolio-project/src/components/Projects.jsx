@@ -10,10 +10,12 @@ export const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-        explicabo atque placeat vel! Labore asperiores eius incidunt facilis,
-        eaque necessitatibus quis consectetur! Sequi dolorum nemo voluptatum
-        fugit quam, adipisci ratione!
+        Per il progetto di fine corso sviluppatore front end basato su HTML e
+        CSS, ho realizzato un sito web responsivo con un design semplice e
+        accattivante.Il secondo mio progetto di sviluppatore front end e basato
+        su ReactJS. Un sito di notize, ho utilizato API di sito uficiale
+        TheGuardian, utilizzando la libreria Redux per lo stato globale
+        dell'applicazione.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
