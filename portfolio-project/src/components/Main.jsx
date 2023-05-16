@@ -1,14 +1,12 @@
 import React from "react";
+import cloneImg from "./../img/victor.jpg";
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const Main = () => {
   return (
     <div id="main">
-      <img
-        className="w-full h-screen object-cover object-left-top scale-x-[-1]     "
-        src="../public/IMG-5838.JPG"
-      />
+      <Main img="./../img/victor.jpg" />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div
           className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center   items-left pl-10  
