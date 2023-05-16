@@ -18,7 +18,7 @@ export const Skills = () => {
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
           <img
             className="w-20 mx-auto "
-            src="../../public/HTML.jpg"
+            src="./images/HTML.jpg"
             alt="HTML icon"
           />
           <p>HTML</p>
@@ -26,23 +26,19 @@ export const Skills = () => {
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
           <img
             className="w-20 mx-auto "
-            src="../../public/CSS.jpg"
+            src="./images/CSS.PNG"
             alt="CSS icon"
           />
           <p>CSS</p>
         </div>
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
-          <img
-            className="w-20 mx-auto "
-            src="../../public/JS.jpg"
-            alt="JS icon"
-          />
+          <img className="w-20 mx-auto " src="./images/JS.PNG" alt="JS icon" />
           <p>JAVA SCRIPT</p>
         </div>
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
           <img
             className="w-20 mx-auto py-4 "
-            src="../../public/GIT.jpg"
+            src="./images/GIT.PNG"
             alt="HTML icon"
           />
           <p>GIT</p>
@@ -50,7 +46,7 @@ export const Skills = () => {
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
           <img
             className="w-20 mx-auto py-4 "
-            src="../../public/REACT.png"
+            src="./images/REACT.PNG"
             alt="HTML icon"
           />
           <p>REACT</p>
@@ -58,7 +54,7 @@ export const Skills = () => {
         <div className="shadow-md rounded-xl hover:scale-110 duration-500">
           <img
             className="w-20 mx-auto py-4 "
-            src="../../public/TAILWIND.jpg"
+            src="./images/TAILWIND.jpg"
             alt="HTML icon"
           />
           <p>TAILWIND</p>

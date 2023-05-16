@@ -1,6 +1,6 @@
 import React from "react";
-import cloneImg from "../../public/clone.png";
-import mainImg from "../../public/main-project.png";
+import cloneImg from "./../img/clone.png";
+import mainImg from "./../img/main-project.png";
 import { ProjectItem } from "./ProjectItem";
 
 export const Projects = () => {
